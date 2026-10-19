@@ -1,0 +1,21 @@
+// Dropdown option lists — mirror the Excel workbook's SETTINGS sheet.
+export const CATEGORIES = ["Watch", "Ring", "Bracelet", "Necklace", "Pendant", "Earrings", "Chain", "Gold", "Diamond Jewellery", "Other"];
+export const SUBCATEGORIES = ["Luxury Watch", "Vintage Watch", "Solitaire Ring", "Eternity Ring", "Signet Ring", "Tennis Bracelet", "Bangle", "Chain Necklace", "Pendant Necklace", "Stud Earrings", "Drop Earrings", "Other"];
+export const STOCK_STATUS = ["Available", "Reserved", "Sold", "On Approval", "With Partner", "With Customer", "Repair", "Consignment", "Returned", "Lost/Missing", "Written Off"];
+export const LOCATIONS = ["Shop Display", "Shop Safe", "Office", "Partner 1", "Partner 2", "Partner 3", "Customer", "Repairer", "Supplier", "Other"];
+export const PAID_BY = ["Partner 1", "Partner 2", "Partner 3", "Business Bank Account", "Business Cash", "Supplier Credit", "Other"];
+export const FUNDING_TYPES = ["Partner Capital", "Partner Loan", "Business Purchase", "Personally Owned Stock", "Consignment", "Supplier Credit", "Other"];
+export const PARTNERS = ["Partner 1", "Partner 2", "Partner 3"];
+export const TXN_TYPES = ["Stock Purchase", "Capital Contribution", "Partner Loan", "Rent", "Deposit", "Building Works", "Shop Fittings", "Professional Fees", "Marketing", "Equipment", "Reimbursement", "Withdrawal", "Other"];
+export const PAYMENT_METHODS = ["Cash", "Debit Card", "Credit Card", "Bank Transfer", "Finance", "Split Payment", "Other"];
+export const PAYMENT_STATUS = ["Paid", "Part Paid", "Deposit Only", "Outstanding", "Refunded"];
+export const VAT_TREATMENT = ["Standard VAT", "Margin Scheme", "VAT Exempt", "Zero Rated", "Not Registered"];
+export const EXPENSE_CATS = ["Rent", "Business Rates", "Refurbishment", "Building Works", "Shop Fittings", "Display Cabinets", "Safe/Security", "CCTV", "Insurance", "Electricity", "Gas", "Water", "Internet", "Telephone", "Staff Wages", "Employer Costs", "Accounting", "Legal", "Marketing", "Website", "Software", "Card Processing Fees", "Bank Fees", "Repairs", "Cleaning", "Packaging", "Delivery", "Travel", "Stock Insurance", "Professional Fees", "Miscellaneous"];
+export const PROJECT_CATS = ["Lease Deposit", "Rent", "Construction", "Electrical", "Plumbing", "Decorating", "Flooring", "Lighting", "Security", "CCTV", "Safe", "Display Cabinets", "Furniture", "Signage", "POS Equipment", "Computers", "Professional Fees", "Other"];
+export const COMPLETION_STATUS = ["Not Started", "In Progress", "Completed", "On Hold", "Cancelled"];
+export const SUPPLIER_TYPES = ["Watch Dealer", "Jewellery Dealer", "Private Seller", "Auction", "Manufacturer", "Wholesaler", "Repairer", "Other"];
+export const MOVEMENT_REASONS = ["Customer Viewing", "Partner Viewing", "Photography", "Repair", "Valuation", "Authentication", "Stock Transfer", "Sale", "Return", "Other"];
+export const CONDITIONS = ["New", "Unworn", "Excellent", "Very Good", "Good", "Fair", "For Repair"];
+export const METAL_PURITY = ["9ct", "14ct", "18ct", "22ct", "24ct", "925 Silver", "950 Platinum", "999 Fine", "N/A"];
+export const CURRENCIES = ["GBP", "USD", "EUR", "AED", "CHF", "HKD", "JPY", "Other"];
+export const MOVEMENTS = ["Automatic", "Manual", "Quartz"];
